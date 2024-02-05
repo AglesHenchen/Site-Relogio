@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "bebas";
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+body {
+    background-position: center;
+    background-size: 2400px;
+}
+
+
+main {
+    background-color: rgba(255, 255, 255, 0.527);
+    margin: auto;
+    position: relative;
+    top: 130px;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px black;
+}
+
+div#hours {
+    background-color: rgba(255, 255, 255, 0.678);
+    position: relative;
+    top: 50px;
+    font: normal 100px bebas;
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+
+div#day {
+    background-color: rgba(255, 255, 255, 0.678);
+    position: relative;
+    top: 75px;
+    font: normal 50px bebas;
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+div#data_complet {
+    background-color: rgba(255, 255, 255, 0.678);
+    position: relative;
+    top: 100px;
+    font: normal 50px bebas;
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+footer {
+    color: white;
+    font: normal 15px Arial;
+    position: relative;
+    top: 400px;
+    background-color: black;
+    margin: 0px -8px 0px -8px;
+    text-align: center;
+    font: normal 20px Arial;
+}
+
